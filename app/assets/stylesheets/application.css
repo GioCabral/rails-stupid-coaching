@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+ h1{
+  padding: 10px;
+ }
+.form{
+  display: flex;
+  flex-direction: row;
+ }
+
+ form{
+  display: flex;
+  padding:5px;
+  width: 40%;
+ }
+
+a{
+  text-decoration: none;
+  padding-left: 10px;
+}
+.dialog-card{
+  background-color: rgba(172, 172, 172, 0.3);
+  width: auto;
+}
+.dialog-card-coach{
+  background-color: rgba(232, 255, 147, 0.3);
+  width: auto;
+}
+p{
+  padding-left: 10px;
+}
+#name{
+  font-size: 20px;
+}
+#message{
+  font-size: 30px;
+}
